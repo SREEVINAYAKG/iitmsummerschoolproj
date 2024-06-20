@@ -1,0 +1,53 @@
+*{
+   background-color: rgba(237, 235, 235, 0.518);
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 16px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{ 
+ background-color: white;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ border-radius: 20px;
+}
+input[type=text],input[type=date],input[type=number]{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #c1fac3;
+    border-radius: 10px;
+}
+input[type=text]:focus,input[type=date]:focus,input[type=number]:focus{
+    background-color: #8cf18f;
+    outline: none;
+}
+.sub{
+    width: 70%;
+    background-color: #00c050;
+    padding: 10px 16px;
+    margin: 4px 4px;
+    justify-content: center;
+    margin-left: 15%;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.container{
+   width: 500px;
+   margin-bottom: auto;
+}
+h1{
+    text-align: center;
+  
+}
